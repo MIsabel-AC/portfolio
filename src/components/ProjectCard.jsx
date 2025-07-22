@@ -1,13 +1,14 @@
-function ProjectCard() {
+function ProjectCard({ image, title, description }) {
   return (
-    <div id="projects" className={`p-4 border rounded shadow-sm`}>
-      <div className="bg-gray-300 h-32 mb-4 flex items-center justify-center">
-        <span className="text-gray-500">placeholder</span>
+    <div id="projects" className="p-4 border rounded shadow-sm flex flex-col items-center">
+      <div className="mb-4 w-[300px] h-[300px] overflow-hidden rounded">
+      <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover"/>
       </div>
-      <h3 className="text-xl font-semibold mb-2">Title</h3>
-      <p className="text-sm text-gray-700">
-        ...
-      </p>
+      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <p className="text-sm text-gray-700 flex-grow">{description}</p>
     </div>
   )
 }
