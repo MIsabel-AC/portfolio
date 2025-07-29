@@ -7,18 +7,21 @@ import Education from './components/sections/Education'
 import Projects from './components/sections/Projects'
 import Contact from './components/sections/Contact'
 import Footer from "./components/Footer";
+import Layout from './components/Layout';
 
 
 function App() {
    return (
-    <div className="min-h-screen font-sans bg-gray-100 text-gray-300-800">
+    <div>
       <Header />
-      <Introduction />
-      <AboutMe />
-      <WorkExperience />
-      <Education />
-      <Projects />
-      <Contact />
+       <Layout>
+        <Introduction />
+        <AboutMe />
+        <WorkExperience />
+        <Education />
+        <Projects />
+        <Contact />
+      </Layout >
       <Footer />
     </div>
   )

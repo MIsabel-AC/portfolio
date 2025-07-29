@@ -20,8 +20,8 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="p-8 border-b border-gray-300">
-      <h1 className="text-3xl font-bold mb-6 text-center md:text-left">Projects</h1>
+    <section id="projects" className="p-8 font-inter ">
+      <h1 className="text-2xl font-bold mb-6 text-center md:text-left">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projectList.map((project, index) => (
           <ProjectCard

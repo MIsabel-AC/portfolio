@@ -1,6 +1,6 @@
 function ProjectCard({ image, title, description }) {
   return (
-    <div id="projects" className="p-4 border rounded shadow-sm flex flex-col items-center">
+    <div id="projects" className="p-4 border rounded shadow-sm flex flex-col items-center font-inter ">
       <div className="mb-4 w-[300px] h-[300px] overflow-hidden rounded">
       <img
           src={image}

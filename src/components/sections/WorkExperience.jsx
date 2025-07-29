@@ -1,6 +1,6 @@
 function WorkExperience() {
   return (
-    <section id="work-experience" className="p-10 bg-white">
+    <section id="work-experience" className="p-10 font-inter">
       <h2 className="text-2xl font-bold mb-6">Work experience</h2>
       <div className="space-y-6">
         <div>

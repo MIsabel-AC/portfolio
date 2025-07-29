@@ -1,2 +1,20 @@
-@import 'tailwindcss'
+@font-face{
+    font-family: Inter;
+    src: url("../src/assets/fonts/Inter.ttf");
+   }
+@font-face{
+    font-family: InterItalic;
+    src: url("../src/assets/fonts/Inter-Italic.ttf");
+    font-weight: 150;
+   }
+@font-face{
+    font-family: SpaceGrotesk;
+    src: url("../src/assets/fonts/SpaceGrotesk.ttf");
+   }  
+@import 'tailwindcss';
 
+@theme{
+    --font-inter: Inter,  "sans-serif";
+    --font-interItalic: InterItalic,  "sans-serif";
+    --font-spaceGrotesk: SpaceGrotesk,  "sans-serif";
+}

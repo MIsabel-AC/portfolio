@@ -1,12 +1,12 @@
 function AboutMe() {
   return (
     <section id="about-me" className="p-10">
-      <h2 className="text-2xl font-bold mb-4">About me</h2>
-      <p className="text-gray-700 mb-4">
+      <h2 className="text-2xl font-bold mb-4 font-inter">About me</h2>
+      <p className="text-gray-700 mb-4 font-inter">
         I specialize in application development using Java and have a solid foundation in web development.
         My technical experience includes working with technologies such as
       </p>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 font-medium">
         {[
           "Java", "Spring", "MySQL", "Jira", "Figma", "ERP", "Odoo", "PL/SQL",
           "PostgreSQL", "HTML5", "CSS", "JavaScript", "Bootstrap", "TailwindCSS",
