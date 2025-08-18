@@ -13,7 +13,7 @@ function Introduction() {
             Mª Isabel Aroca Cifuentes
           </h1>
           <p className="text-gray-600 mt-2 text-base font-inter">
-            Fullstack Developer
+            Fullstack Developer | Junior Java Developer | Junior Web Developer
           </p>
         </div>
 

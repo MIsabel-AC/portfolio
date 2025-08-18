@@ -18,3 +18,11 @@
     --font-interItalic: InterItalic,  "sans-serif";
     --font-spaceGrotesk: SpaceGrotesk,  "sans-serif";
 }
+
+body {
+  background-color: #38b2ac;
+background-image: url("/public/45-degree-fabric-dark.png");
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 100vh;
+}

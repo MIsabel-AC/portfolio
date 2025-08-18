@@ -1,7 +1,9 @@
+import Underline from '../Underline';
 function Contact() {
   return (
     <section id="contact" className="p-10 font-inter">
-      <h2 className="text-2xl font-bold mb-6 text-center md:text-left">Contact</h2>
+      {/* <h2 className="text-2xl font-bold mb-6 text-center md:text-left">Contact</h2> */}
+      <Underline>Contact</Underline>
 
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 mt-6">
 
@@ -13,7 +15,8 @@ function Contact() {
           />
         </div>
 
-
+        <div className="flex-1 max-w-md">
+          <h2 className="text-2xl font-bold mb-4 text-center md:text-left font-inter">➤  Send me an email!</h2>
         <form className="flex-1 max-w-md border-2 border-black p-6 rounded shadow-md space-y-4" style={{ backgroundColor: "#FDE1AF" }}>
           <input
             type="text"
@@ -37,6 +40,7 @@ function Contact() {
             Send
           </button>
         </form>
+        </div>
       </div>
     </section>
   )

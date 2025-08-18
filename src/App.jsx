@@ -12,7 +12,7 @@ import Layout from './components/Layout';
 
 function App() {
    return (
-    <div>
+    <div className="max-w-7xl mx-auto px-4">
       <Header />
        <Layout>
         <Introduction />

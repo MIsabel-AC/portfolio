@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="text-sm text-center text-gray-700 p-4 mt-10 font-inter" style={{ backgroundColor: "#E5F3E0" }}>
+    <footer className="text-sm text-center text-gray-700 p-4 font-inter" style={{ backgroundColor: "#E5F3E0" }}>
       <p>© 2025 M Isabel Aroca Cifuentes</p>
       <div className="flex justify-center gap-4 mt-2">
         <a href="#">Home</a>
