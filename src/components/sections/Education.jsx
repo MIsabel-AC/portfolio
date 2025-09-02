@@ -7,33 +7,45 @@ function Education() {
         <div>
           <h3 className="flex items-center font-semibold text-lg space-x-3">
             <span className="w-2.5 h-2.5 rounded-full bg-teal-400"></span>
-            <span>Junior Developer</span>
+            <span>Java Web Programming Course - 631h</span>
         </h3>
 
 
-          <p className="text-sm text-gray-600">Freelance · 2025 – Present</p>
+          <p className="text-sm text-gray-600">School of Industrial Organization, Generation Spain · 2025</p>
          <div className="text-gray-700 font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
           <p className="mt-2">
-            My latest project has been development and programming in Java for the project 'ConchaCrítica,' a web platform for movie, series, and video game reviews.
+            Trained to develop desktop and web applications, both on the client side (Frontend) and on the server side (Backend). 
           </p>
           <p>
-            I am consistently developing my skills to become an even better programmer, and I plan to continue working on new projects that challenge me and allow me to grow as a software developer.
+            In addition, other key related aspects were addressed, such as development tools, databases, HTML, and optimizing the relationship with the client, learning to analyze and evaluate application requirements from their perspective.
           </p>
           </div> 
         </div>
         <div>
           <h3 className="flex items-center font-semibold text-lg space-x-3">
             <span className="w-2.5 h-2.5 rounded-full bg-teal-400"></span>
-            <span>Junior Developer · Internship</span>
+            <span>Specialist Technician in Cybersecurity</span>
           </h3>
           <p className="text-sm text-gray-600">
-            Institute for Research in Computer Science of Albacete · 2023
+            IES Leonardo Da Vinci. Albacete, Castilla-La Mancha · 2023 - 2024.
           </p>
           <div className="text-gray-700 font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
           <p className="mt-2">
-            Web scraping with Django. 
-            Design, development, and programming of web applications. 
-            Management of relational databases.
+            Intensive training focused on protecting systems, networks, and data against digital threats. Gained skills in vulnerability analysis, ethical hacking, secure system configuration, incident management, and the use of tools such as Wireshark or Metasploit.
+          </p>
+          </div>
+        </div>
+        <div>
+          <h3 className="flex items-center font-semibold text-lg space-x-3">
+            <span className="w-2.5 h-2.5 rounded-full bg-teal-400"></span>
+            <span>Advanced Vocational Training in Cross-Platform Application Development</span>
+          </h3>
+          <p className="text-sm text-gray-600">
+            IES Leonardo Da Vinci. Albacete, Castilla-La Mancha · 2021 - 2023.
+          </p>
+          <div className="text-gray-700 font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
+          <p className="mt-2">
+            I learned to design and build software for desktop, mobile, and web platforms. I gained strong skills in programming (mainly Java), databases, systems, and development environments. I also trained in Agile project management, secure coding, and teamwork. Finally, I completed an internship in a company to apply my knowledge in real projects.
           </p>
           </div>
         </div>

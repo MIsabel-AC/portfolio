@@ -5,13 +5,23 @@ function Contact() {
       {/* <h2 className="text-2xl font-bold mb-6 text-center md:text-left">Contact</h2> */}
       <Underline>Contact</Underline>
 
-      <div className="flex flex-col md:flex-row items-start justify-between gap-10 mt-6">
+      <div className="flex flex-col md:flex-row justify-between">
 
-        <div className="flex-1 min-w-[10px]">
+        <div>
           <img
-            src=""
+            src="./linkedinicon.png"
             alt="Icons"
-            className="w-full h-auto rounded-lg"
+            className="w-[90px] h-[50px] rounded-lg"
+          />
+          <img
+            src="./githubicon.png"
+            alt="Icons"
+            className="w-[90px] h-[50px] rounded-lg"
+          />
+          <img
+            src="./emailicon.png"
+            alt="Icons"
+            className="w-[90px] h-[50px] rounded-lg"
           />
         </div>
 
