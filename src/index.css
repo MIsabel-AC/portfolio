@@ -10,18 +10,29 @@
 @font-face{
     font-family: SpaceGrotesk;
     src: url("../src/assets/fonts/SpaceGrotesk.ttf");
-   }  
+   }
+   @font-face{
+    font-family: Sacramento;
+    src: url("../src/assets/fonts/Sacramento-Regular.ttf");
+   }    
 @import 'tailwindcss';
 
 @theme{
     --font-inter: Inter,  "sans-serif";
     --font-interItalic: InterItalic,  "sans-serif";
     --font-spaceGrotesk: SpaceGrotesk,  "sans-serif";
+    --font-sacramento: Sacramento,  "sans-serif";
+}
+
+.sacramento-size {
+  font-family: var(--font-sacramento), sans-serif !important;
+  font-size: 2rem !important; 
+  line-height: 1.2;
 }
 
 body {
   background-color: #38b2ac;
-background-image: url("/public/45-degree-fabric-dark.png");
+  background-image: url("/background/45-degree-fabric-dark.png");
   background-repeat: repeat;
   background-position: center;
   min-height: 100vh;

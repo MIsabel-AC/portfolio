@@ -5,7 +5,7 @@ function ProjectCard({ image, title, description }) {
       <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover"/>
+          className="w-[300px] h-[300px] object-contain"/>
       </div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="text-sm text-gray-700 flex-grow">{description}</p>
