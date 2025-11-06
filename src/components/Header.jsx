@@ -1,11 +1,27 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import "../i18n.js";
+
 function Header() {
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
+  const { i18n } = useTranslation();
+
+   const toggleLanguage = () => {
+    const newLang = i18n.language === "en" ? "es" : "en";
+    i18n.changeLanguage(newLang);
+  };
 
   return (
     <header className="flex items-center justify-between px-6 py-4 shadow-md bg-white sticky top-0 z-50 font-inter">
-      <button className="bg-teal-500 border px-3 py-1 rounded-md text-sm">
-        Download my CV</button>
+      <button
+        onClick={() => {
+        const link = document.createElement('a');
+        link.href = './cv/CVES_MariaIsabelArocaCifuentes.pdf';
+        link.download = 'CV_MariaIsabelArocaCifuentes.pdf';
+        link.click();
+      }}
+        className="bg-teal-500 border px-3 py-1 rounded-md text-sm">{t("navigation.cv")}</button>
 
       <div className="flex items-center gap-3">
    
@@ -28,15 +44,16 @@ function Header() {
         className={`${
           open ? "flex" : "hidden"
         } flex-col items-center text-center absolute top-full left-0 w-full bg-white shadow-md md:static md:flex md:flex-row md:items-center md:justify-center md:space-x-4 md:bg-transparent md:shadow-none`}>
-        <a href="#" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">Home</a>
-        <a href="#about-me" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">About me</a>
-        <a href="#work-experience" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">Work experience</a>
-        <a href="#education" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">Education</a>
-        <a href="#projects" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">Projects</a>
-        <a href="#contact" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">Contact</a>
+        <a href="#" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">{t("navigation.menuItems.home")}</a>
+        <a href="#about-me" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">{t("navigation.menuItems.aboutMe")}</a>
+        <a href="#work-experience" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">{t("navigation.menuItems.workExperience")}</a>
+        <a href="#education" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">{t("navigation.menuItems.education")}</a>
+        <a href="#projects" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">{t("navigation.menuItems.projects")}</a>
+        <a href="#contact" className="text-gray-700 hover:text-black py-1 px-4 md:px-0 text-sm">{t("navigation.menuItems.contact")}</a>
       </nav>
 
       <button
+          onClick={toggleLanguage}
           className="px-2 py-1 text-sm rounded-md"
           style={{backgroundColor: "#FDE1AF",  whiteSpace: "nowrap"}}>
           EN / ES

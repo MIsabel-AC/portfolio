@@ -1,43 +1,39 @@
 import Underline from '../Underline';
+import { useTranslation } from "react-i18next";
+import "../../i18n";
+
 function WorkExperience() {
+  const { t } = useTranslation();
   return (
      <section id="work-experience" className="p-10">
-      <Underline>Work Experience</Underline>
+      <Underline>{t("workExperience.title")}</Underline>
 
       <div className="font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
-         
         
         <div>
           <h3 className="flex items-center font-semibold text-lg space-x-3">
             <span className="w-2.5 h-2.5 rounded-full bg-teal-400"></span>
-            <span>Junior Developer</span>
+            <span>{t("workExperience.experiences.0.role")}</span>
         </h3>
 
-
-          <p className="text-sm text-gray-600">Freelance · 2025 – Present</p>
+          <p className="text-sm text-gray-600">{t("workExperience.experiences.0.period")}</p>
          <div className="text-gray-700 font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
           <p className="mt-2">
-            My latest project has been development and programming in Java for the project 'ConchaCrítica,' a web platform for movie, series, and video game reviews.
+            {t("workExperience.experiences.0.description")}
           </p>
-          <p>
-            I am consistently developing my skills to become an even better programmer, and I plan to continue working on new projects that challenge me and allow me to grow as a software developer.
-          </p>
+
           </div> 
         </div>
+
         <div>
           <h3 className="flex items-center font-semibold text-lg space-x-3">
             <span className="w-2.5 h-2.5 rounded-full bg-teal-400"></span>
-            <span>Junior Developer · Internship</span>
+            <span><span>{t("workExperience.experiences.1.role")}</span></span>
           </h3>
-          <p className="text-sm text-gray-600">
-            Institute for Research in Computer Science of Albacete · 2023
-          </p>
+
+          <p className="text-sm text-gray-600">{t("workExperience.experiences.1.period")}</p>
           <div className="text-gray-700 font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
-          <p className="mt-2">
-            Web scraping with Django. 
-            Design, development, and programming of web applications. 
-            Management of relational databases.
-          </p>
+          <p className="mt-2">{t("workExperience.experiences.1.description")}</p>
           </div>
         </div>
       </div>

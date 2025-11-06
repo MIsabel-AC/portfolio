@@ -8,6 +8,7 @@ import Projects from './components/sections/Projects'
 import Contact from './components/sections/Contact'
 import Footer from "./components/Footer";
 import Layout from './components/Layout';
+import "./i18n";
 
 
 function App() {

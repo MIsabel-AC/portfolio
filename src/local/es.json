@@ -1,0 +1,95 @@
+{
+  "introduction": {
+    "greeting": "¡Hola! Soy",
+    "subtitle": "Desarrolladora Backend | Desarrolladora Java Junior | Desarrolladora Web Junior"
+  },
+
+  "aboutMe": {
+    "title": "Sobre mí",
+    "intro": "A lo largo de mi trayectoria académica, siempre tuve claro que quería construir y crear cosas, lo que naturalmente me llevó a enfocar mi camino en la programación.",
+    "specialization": "Estoy especializada en el desarrollo de aplicaciones con Java y también cuento con una sólida base en desarrollo web. Mi experiencia técnica abarca tanto tecnologías backend como frontend, lo que me permite abordar los proyectos con una mentalidad fullstack.",
+    "values": "Me apasiona resolver problemas mediante código limpio, eficiente y escalable, y disfruto colaborar en entornos de equipo donde puedo tanto aportar como aprender.",
+    "designing": "Más allá de la programación, valoro el buen diseño y la usabilidad, por lo que también exploro herramientas como Figma para reducir la distancia entre el desarrollo y la experiencia de usuario.",
+    "skillsTitle": "Tecnologías y herramientas principales con las que tengo experiencia:"
+  },
+
+  "workExperience": {
+    "title": "Experiencia profesional",
+    "experiences": [
+      {
+        "role": "Desarrolladora Junior · Freelance",
+        "period": "2025 – Actualidad",
+        "description": "Desarrollo y programación en Java para el proyecto 'ConchaCrítica', una plataforma web de reseñas de cine, series y videojuegos. Siempre estoy en constante mejora de mis habilidades para afrontar proyectos desafiantes que impulsen mi crecimiento como desarrolladora de software."
+      },
+      {
+        "role": "Desarrolladora Junior · Prácticas",
+        "period": "Instituto de Investigación en Informática de Albacete · 2023",
+        "description": "Web scraping con Django, diseño y desarrollo de aplicaciones web, y gestión de bases de datos relacionales."
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Formación académica",
+    "studies": [
+      {
+        "degree": "Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma",
+        "institution": "IES Leonardo Da Vinci. Albacete, Castilla-La Mancha · 2021 - 2023",
+        "description": "Formación en diseño y desarrollo de software para plataformas de escritorio, móviles y web. Sólida base en programación (principalmente Java), bases de datos, sistemas y entornos de desarrollo. Además, formación en gestión ágil de proyectos, codificación segura y trabajo en equipo, finalizando con prácticas en empresa aplicando los conocimientos en proyectos reales."
+      },
+      {
+        "degree": "Técnico Especialista en Ciberseguridad",
+        "institution": "IES Leonardo Da Vinci. Albacete, Castilla-La Mancha · 2023 - 2024",
+        "description": "Formación intensiva orientada a la protección de sistemas, redes y datos frente a amenazas digitales. Desarrollo de competencias en análisis de vulnerabilidades, hacking ético, configuración segura de sistemas, gestión de incidentes y uso de herramientas como Wireshark o Metasploit."
+      },
+      {
+        "degree": "Curso de Programación Web con Java – 631h",
+        "institution": "Escuela de Organización Industrial, Generation Spain · 2025",
+        "description": "Formación completa en el desarrollo de aplicaciones de escritorio y web, tanto en el lado del cliente (frontend) como en el del servidor (backend). Se incluyeron herramientas de desarrollo, bases de datos, HTML y optimización de la relación con el cliente, aprendiendo a analizar y evaluar los requisitos de las aplicaciones desde su perspectiva."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "items": [
+      {
+        "name": "La Concha Crítica",
+        "description": "Proyecto grupal consistente en una página web de reseñas de películas, series y videojuegos."
+      },
+      {
+        "name": "Mocha Petals",
+        "description": "Juego de simulación de cafetería desarrollado íntegramente en Java."
+      },
+      {
+        "name": "¡Próximamente!",
+        "description": "Actualmente estoy trabajando en un proyecto muy interesante que permitirá personalizar tu diario tanto como desees :)."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "➤ ¡Envíame un correo!",
+    "form": {
+      "email": "Tu correo electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar"
+    }
+  },
+
+  "navigation": {
+    "cv": "Descarga mi CV",
+    "menuItems": {
+      "home": "Inicio",
+      "aboutMe": "Sobre mí",
+      "workExperience": "Experiencia profesional",
+      "education": "Formación académica",
+      "projects": "Projectos",
+      "contact": "Contacto"
+    }
+  }
+}
+
+

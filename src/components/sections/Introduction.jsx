@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+import "../../i18n";
+
 function Introduction() {
+    const { t } = useTranslation();
   return (
     <section
       id="introduction"
@@ -16,13 +20,11 @@ function Introduction() {
         </div>
 
         <div className="flex-1 min-w-[100px] md:pr-8 order-2 md:order-1 text-center md:text-left">
-          <p className="mb-2 font-interItalic text-6xl">Hi! I'm</p>
+          <p className="mb-2 font-interItalic text-6xl">{t("introduction.greeting")}</p>
           <h1 className="text-6xl font-spaceGrotesk font-bold leading-tight">
             Mª Isabel Aroca Cifuentes
           </h1>
-          <p className="text-gray-600 mt-2 text-base font-inter">
-            Backend Developer | Junior Java Developer | Junior Web Developer
-          </p>
+          <p className="text-gray-600 mt-2 text-base font-inter">{t("introduction.subtitle")}</p>
         </div>
       </div>
     </section>

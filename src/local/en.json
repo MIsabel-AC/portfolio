@@ -1,0 +1,96 @@
+{
+  "introduction": {
+    "greeting": "Hi! I'm",
+    "subtitle": "Backend Developer | Junior Java Developer | Junior Web Developer"
+  },
+
+  "aboutMe": {
+    "title": "About me",
+    "intro": "Throughout my academic journey, I always knew I wanted to build and create things, which naturally led me to pursue programming as my main focus.",
+    "specialization": "I specialize in application development with Java, and also have a strong background in web development. My technical expertise covers both backend and frontend technologies, allowing me to approach projects with a fullstack mindset.",
+    "values": "I’m passionate about solving problems through clean, efficient, and scalable code, and I enjoy collaborating in team environments where I can both contribute and learn.",
+    "designing": "Beyond coding, I value good design and usability, which is why I also explore tools like Figma to bridge the gap between development and user experience.",
+    "skillsTitle": "Core technologies and tools I am experienced with:"
+  },
+
+  "workExperience": {
+    "title": "Work experience",
+    "experiences": [
+      {
+        "role": "Junior Developer · Freelance",
+        "period": "2025 – Present",
+        "description": "Development and programming in Java for the project 'ConchaCrítica,' a web platform for movie, series, and video game reviews. Continuously improving my skills to take on challenging projects that help me grow as a software developer."
+      },
+      {
+        "role": "Junior Developer · Internship",
+        "period": "Institute for Research in Computer Science of Albacete · 2023",
+        "description": "Web scraping with Django, design and development of web applications, and management of relational databases."
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "studies": [
+      {
+        "degree": "Advanced Vocational Training in Cross-Platform Application Development",
+        "institution": "IES Leonardo Da Vinci. Albacete, Castilla-La Mancha · 2021 - 2023",
+        "description": "Training in the design and development of software for desktop, mobile, and web platforms. Strong foundation in programming (mainly Java), databases, systems, and development environments. Also trained in Agile project management, secure coding, and teamwork, completing an internship to apply knowledge in real projects."
+      },
+      {
+        "degree": "Specialist Technician in Cybersecurity",
+        "institution": "IES Leonardo Da Vinci. Albacete, Castilla-La Mancha · 2023 - 2024",
+        "description": "Intensive training focused on protecting systems, networks, and data against digital threats. Developed skills in vulnerability analysis, ethical hacking, secure system configuration, incident management, and the use of tools such as Wireshark or Metasploit."
+      },
+      {
+        "degree": "Java Web Programming Course - 631h",
+        "institution": "School of Industrial Organization, Generation Spain · 2025",
+        "description": "Comprehensive training to develop desktop and web applications, both frontend and backend. Covered key related aspects such as development tools, databases, HTML, and client relationship optimization by learning to analyze and evaluate requirements from the user's perspective."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "The Critical Shell",
+        "description": "Group project consisting of a review website for movies, series, and video games."
+      },
+      {
+        "name": "Mocha Petals",
+        "description": "Coffee shop simulation game developed entirely in Java."
+      },
+      {
+        "name": "Coming soon!",
+        "description": "Currently working on a very cool project where you can personalize your diary as much as you want :)."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Contact",
+    "subtitle": "➤ Send me an email!",
+    "form": {
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your message",
+      "send": "Send"
+    }
+  },
+
+  "navigation": {
+    "cv": "Download my CV",
+    "menuItems": {
+      "home": "Home",
+      "aboutMe": "About me",
+      "workExperience": "Work experience",
+      "education": "Education",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  }
+}
+
+
+
