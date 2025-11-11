@@ -68,6 +68,28 @@
     ]
   },
 
+  "additionalInfo": {
+    "title": "Additional information",
+    "items": [
+      {
+        "name": "Cambridge English: Advanced (CAE)",
+        "description": "C1 English proficiency"
+      },
+      {
+        "name": "Subsidized hiring under the Youth Guarantee System (SNGJ)",
+        "description": "Eligible for youth employment incentives"
+      },
+      {
+        "name": "On-site / remote work",
+        "description": "Flexible working arrangements"
+      },
+      {
+        "name": "Immediate availability",
+        "description": "Ready to join your team right away"
+      }
+    ]
+  },
+
   "contact": {
     "title": "Contact",
     "subtitle": "➤ Send me an email!",
@@ -87,10 +109,8 @@
       "workExperience": "Work experience",
       "education": "Education",
       "projects": "Projects",
+      "additionalInfo": "More",
       "contact": "Contact"
     }
   }
 }
-
-
-

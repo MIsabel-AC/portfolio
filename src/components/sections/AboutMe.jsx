@@ -1,4 +1,4 @@
-import Underline from '../Underline';
+import Underline from "../Underline";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -7,7 +7,7 @@ function AboutMe() {
 
   return (
     <section id="about-me" className="p-10">
-     <Underline>{t("aboutMe.title")}</Underline>
+      <Underline>{t("aboutMe.title")}</Underline>
 
       <div className="text-gray-700 font-inter leading-relaxed space-y-6 text-justify max-w-4xl">
         <p>{t("aboutMe.intro")}</p>
@@ -17,20 +17,37 @@ function AboutMe() {
         <p>{t("aboutMe.skillsTitle")}</p>
       </div>
 
-<br />
+      <br />
       <div className="flex flex-wrap gap-2 font-medium max-w-4xl">
         {[
-          "Java", "Spring", "MySQL", "Jira", "Figma", "ERP", "Odoo", "PL/SQL",
-          "PostgreSQL", "HTML5", "CSS", "JavaScript", "Bootstrap", "TailwindCSS",
-          "React", "Python", "Django"
+          "Java",
+          "Spring",
+          "MySQL",
+          "Jira",
+          "Figma",
+          "ERP",
+          "Odoo",
+          "PL/SQL",
+          "PostgreSQL",
+          "HTML5",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "TailwindCSS",
+          "React",
+          "Python",
+          "Django",
         ].map((tech) => (
-          <span key={tech} className="bg-teal-400 text-white px-3 py-1 rounded-full text-sm">
+          <span
+            key={tech}
+            className="bg-teal-400 text-white px-3 py-1 rounded-full text-sm"
+          >
             {tech}
           </span>
         ))}
       </div>
     </section>
-  )
+  );
 }
 
-export default AboutMe
+export default AboutMe;

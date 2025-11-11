@@ -68,6 +68,28 @@
     ]
   },
 
+    "additionalInfo": {
+    "title": "Información adicional",
+    "items": [
+      {
+        "name": "Cambridge English: Advanced (CAE)",
+        "description": "Título de nivel C1 competente de inglés"
+      },
+      {
+        "name": "Contratación bonificada en el sistema de garantía juvenil (SNGJ)",
+        "description": "Calificada para incentivos de empleo juvenil"
+      },
+      {
+        "name": "Presencial / remoto",
+        "description": "Acuerdos laborales flexibles"
+      },
+      {
+        "name": "Disponibilidad inmediata",
+        "description": "Preparada para unirme al equipo"
+      }
+    ]
+  },
+
   "contact": {
     "title": "Contacto",
     "subtitle": "➤ ¡Envíame un correo!",
@@ -87,9 +109,8 @@
       "workExperience": "Experiencia profesional",
       "education": "Formación académica",
       "projects": "Projectos",
+      "additionalInfo": "Más",
       "contact": "Contacto"
     }
   }
 }
-
-

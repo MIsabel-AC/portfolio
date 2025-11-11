@@ -1,31 +1,32 @@
-import './index.css'
+import "./index.css";
 import Header from "./components/Header";
-import Introduction from './components/sections/Introduction';
-import AboutMe from './components/sections/AboutMe'
-import WorkExperience from './components/sections/WorkExperience'
-import Education from './components/sections/Education'
-import Projects from './components/sections/Projects'
-import Contact from './components/sections/Contact'
+import Introduction from "./components/sections/Introduction";
+import AboutMe from "./components/sections/AboutMe";
+import WorkExperience from "./components/sections/WorkExperience";
+import Education from "./components/sections/Education";
+import Projects from "./components/sections/Projects";
+import AdditionalInfo from "./components/sections/AdditionalInfo";
+import Contact from "./components/sections/Contact";
 import Footer from "./components/Footer";
-import Layout from './components/Layout';
+import Layout from "./components/Layout";
 import "./i18n";
 
-
 function App() {
-   return (
+  return (
     <div className="max-w-7xl mx-auto px-4">
       <Header />
-       <Layout>
+      <Layout>
         <Introduction />
         <AboutMe />
         <WorkExperience />
         <Education />
         <Projects />
+        <AdditionalInfo />
         <Contact />
-      </Layout >
+      </Layout>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
