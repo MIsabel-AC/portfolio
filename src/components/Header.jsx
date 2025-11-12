@@ -12,15 +12,24 @@ function Header() {
     i18n.changeLanguage(newLang);
   };
 
+  const handleDownloadCV = () => {
+    const currentLang = i18n.language;
+    const link = document.createElement("a");
+
+    if (currentLang === "es") {
+      link.href = "./cv/CVES_MariaIsabelArocaCifuentes.pdf";
+      link.download = "CV_MariaIsabelArocaCifuentes_ES.pdf";
+    } else {
+      link.href = "./cv/CVEN_MariaIsabelArocaCifuentes.pdf";
+      link.download = "CV_MariaIsabelArocaCifuentes_EN.pdf";
+    }
+    link.click();
+  };
+
   return (
     <header className="flex items-center justify-between px-6 py-4 shadow-md bg-white sticky top-0 z-50 font-inter">
       <button
-        onClick={() => {
-          const link = document.createElement("a");
-          link.href = "./cv/CVES_MariaIsabelArocaCifuentes.pdf";
-          link.download = "CV_MariaIsabelArocaCifuentes.pdf";
-          link.click();
-        }}
+        onClick={handleDownloadCV}
         className="bg-teal-500 border px-3 py-1 rounded-md text-sm"
       >
         {t("navigation.cv")}
