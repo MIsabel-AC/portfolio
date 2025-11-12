@@ -35,6 +35,10 @@ function Footer() {
           María Isabel
         </a>
       </div>
+      <div className="flex items-center space-x-2 justify-center">
+        <p className="sacramento-size mt-3">{t("credits.title")}</p>
+        <img src="../src/assets/react.svg" alt="React icon" className="w-7 h-7 translate-y-1" />
+  </div>
     </footer>
   );
 }

@@ -55,11 +55,13 @@
     "items": [
       {
         "name": "The Critical Shell",
-        "description": "Group project consisting of a review website for movies, series, and video games."
+        "description": "Group project consisting of a review website for movies, series, and video games.",
+        "repo": "https://github.com/grupo4EOI/Proyecto-Grupo4EOI"
       },
       {
         "name": "Mocha Petals",
-        "description": "Coffee shop simulation game developed entirely in Java."
+        "description": "Coffee shop simulation game developed entirely in Java.",
+        "repo": "https://github.com/MIsabel-AC/Mocha-Petals"
       },
       {
         "name": "Coming soon!",
@@ -93,6 +95,7 @@
   "contact": {
     "title": "Contact",
     "subtitle": "➤ Send me an email!",
+    "checkRepo": "If you like what you see... Check out the repository of this portfolio here!",
     "form": {
       "email": "Your Email",
       "subject": "Subject",
@@ -112,5 +115,10 @@
       "additionalInfo": "More",
       "contact": "Contact"
     }
+  },
+
+  "credits": {
+    "title":"Made with React"
   }
+
 }

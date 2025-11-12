@@ -1,9 +1,50 @@
 import Underline from "../Underline";
 import { useTranslation } from "react-i18next";
+import { useState, useEffect, useRef } from "react";
 import "../../i18n";
+import { motion } from "framer-motion";
 
 function Contact() {
   const { t } = useTranslation();
+  const checkRepo = t("contact.checkRepo");
+  const [displayedRepo, setDisplayedRepo] = useState("");
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    let index = 0;
+    let interval;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            if (interval) clearInterval(interval);
+
+            interval = setInterval(() => {
+              setDisplayedRepo(checkRepo.slice(0, index + 1));
+              index++;
+              if (index >= checkRepo.length) {
+                clearInterval(interval);
+              }
+            }, 90);
+
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(containerRef.current);
+
+    return () => {
+      observer.disconnect();
+      if (interval) clearInterval(interval);
+    };
+  }, [checkRepo]);
+
   return (
     <section id="contact" className="p-10 font-inter">
       <div className="flex flex-col md:flex-row justify-between">
@@ -51,6 +92,18 @@ function Contact() {
               <span>Isabel.arocac@gmail.com</span>
             </a>
           </div>
+          <a
+            href="https://github.com/MIsabel-AC/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p
+              ref={containerRef}
+              className="mt-10 leading-relaxed max-w-xs text-2xl font-spaceGrotesk text-gray-800 italic underline decoration-[#E5F3E0] decoration-5 hover:text-gray-600 transition-colors"
+            >
+              {displayedRepo}
+            </p>
+          </a>
         </div>
 
         <div className="md:ml-1">

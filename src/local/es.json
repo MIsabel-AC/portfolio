@@ -93,6 +93,7 @@
   "contact": {
     "title": "Contacto",
     "subtitle": "➤ ¡Envíame un correo!",
+    "checkRepo": "Si te gusta lo que ves... ¡Mira el repositorio de este portfolio aquí!",
     "form": {
       "email": "Tu correo electrónico",
       "subject": "Asunto",
@@ -112,5 +113,9 @@
       "additionalInfo": "Más",
       "contact": "Contacto"
     }
+  },
+
+    "credits": {
+    "title":"Desarrollado con React"
   }
 }

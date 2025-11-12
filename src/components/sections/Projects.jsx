@@ -23,6 +23,7 @@ function Projects() {
             image={projectImages[index]}
             title={project.name}
             description={project.description}
+            repo={project.repo}
           />
         ))}
       </div>
