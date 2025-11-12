@@ -40,7 +40,7 @@ function AboutMe() {
         ].map((tech) => (
           <span
             key={tech}
-            className="bg-teal-400 text-white px-3 py-1 rounded-full text-sm"
+            className="bg-teal-400 text-white px-3 py-1 rounded-full text-sm transform transition duration-300 hover:scale-105 hover:shadow-xl"
           >
             {tech}
           </span>

@@ -30,7 +30,7 @@ function Header() {
     <header className="flex items-center justify-between px-6 py-4 shadow-md bg-white sticky top-0 z-50 font-inter">
       <button
         onClick={handleDownloadCV}
-        className="bg-teal-500 border px-3 py-1 rounded-md text-sm"
+        className="bg-teal-500 border px-3 py-1 rounded-md text-sm transform transition duration-300 hover:scale-105 hover:shadow-xl"
       >
         {t("navigation.cv")}
       </button>
@@ -121,7 +121,7 @@ function Header() {
 
         <button
           onClick={toggleLanguage}
-          className="px-2 py-1 text-sm rounded-md"
+          className="px-2 py-1 text-sm rounded-md transform transition duration-300 hover:scale-105 hover:shadow-xl"
           style={{ backgroundColor: "#FDE1AF", whiteSpace: "nowrap" }}
         >
           EN / ES

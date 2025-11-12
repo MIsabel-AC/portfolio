@@ -15,7 +15,7 @@ function Contact() {
               href="https://www.linkedin.com/in/mar%C3%ADa-isabel-aroca-cifuentes/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 bg-teal-500 text-white px-4 py-2 rounded-full w-fit hover:bg-teal-600 transition"
+              className="flex items-center space-x-2 bg-teal-500 text-white px-4 py-2 rounded-full w-fit hover:bg-teal-600 transition transform duration-300 hover:scale-105 hover:shadow-xl"
             >
               <img
                 src="./icons/linkedinicon.png"
@@ -29,7 +29,7 @@ function Contact() {
               href="https://github.com/MIsabel-AC"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 bg-teal-500 text-white px-4 py-2 rounded-full w-fit hover:bg-teal-600 transition"
+              className="flex items-center space-x-2 bg-teal-500 text-white px-4 py-2 rounded-full w-fit hover:bg-teal-600 transition transform duration-300 hover:scale-105 hover:shadow-xl"
             >
               <img
                 src="./icons/githubicon.png"
@@ -41,7 +41,7 @@ function Contact() {
 
             <a
               href="mailto:Isabel.arocac@gmail.com"
-              className="flex items-center space-x-2 bg-teal-500 text-white px-4 py-2 rounded-full w-fit hover:bg-teal-600 transition"
+              className="flex items-center space-x-2 bg-teal-500 text-white px-4 py-2 rounded-full w-fit hover:bg-teal-600 transition transform duration-300 hover:scale-105 hover:shadow-xl"
             >
               <img
                 src="./icons/emailicon.png"
@@ -86,7 +86,7 @@ function Contact() {
             ></textarea>
             <button
               type="submit"
-              className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
+              className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transform transition duration-300 hover:scale-105 hover:shadow-xl"
             >
               {t("contact.form.send")}
             </button>

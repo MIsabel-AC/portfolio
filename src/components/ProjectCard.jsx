@@ -2,7 +2,7 @@ function ProjectCard({ image, title, description }) {
   return (
     <div
       id="projects"
-      className="p-4 border rounded shadow-sm flex flex-col items-center text-center font-inter"
+      className="p-4 border rounded shadow-sm flex flex-col items-center text-center font-inter transform transition duration-300 hover:scale-105 hover:shadow-xl"
     >
       <div className="mb-4 w-[300px] h-[300px] overflow-hidden rounded">
         <img
