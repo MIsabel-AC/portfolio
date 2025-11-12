@@ -54,21 +54,24 @@
     "title": "Proyectos",
     "items": [
       {
-        "name": "La Concha Crítica",
-        "description": "Proyecto grupal consistente en una página web de reseñas de películas, series y videojuegos."
+        "name": "The Critical Shell",
+        "description": "Proyecto grupal consistente en un sitio web de reseñas de películas, series y videojuegos.",
+        "repo": "https://github.com/grupo4EOI/Proyecto-Grupo4EOI"
       },
       {
         "name": "Mocha Petals",
-        "description": "Juego de simulación de cafetería desarrollado íntegramente en Java."
+        "description": "Juego de simulación de cafetería desarrollado completamente en Java.",
+        "repo": "https://github.com/MIsabel-AC/Mocha-Petals"
       },
       {
         "name": "¡Próximamente!",
-        "description": "Actualmente estoy trabajando en un proyecto muy interesante que permitirá personalizar tu diario tanto como desees :)."
+        "description": "Actualmente trabajando en un proyecto muy interesante donde puedes personalizar tu diario tanto como quieras :).",
+        "repo": "https://github.com/MIsabel-AC/diaryProject"
       }
     ]
   },
 
-    "additionalInfo": {
+  "additionalInfo": {
     "title": "Información adicional",
     "items": [
       {
@@ -115,7 +118,7 @@
     }
   },
 
-    "credits": {
-    "title":"Desarrollado con React"
+  "credits": {
+    "title": "Desarrollado con React"
   }
 }
